@@ -1,5 +1,5 @@
 //#define Pass60
-//#define HD90
+#define HD90
 
 using System;
 using System.Collections;
@@ -12,7 +12,7 @@ public class ProgressEvaluator : MonoBehaviour
 {
     private enum GradeBand { Deactivate, Pass50, Pass60, Credit70, Distinction80, HD90, HD100 };
     private Action[] evalMethods;
-    [SerializeField] private uint studentNumber = 0;
+    [SerializeField] private uint studentNumber = 24866523;
     [SerializeField] private GradeBand bandReached = GradeBand.Deactivate;
     //[SerializeField] private bool showSuccessMessages = false;
 

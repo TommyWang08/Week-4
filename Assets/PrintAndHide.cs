@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PrintAndHide : MonoBehaviour
 {
-    [SerializeField] private Renderer rend;
+    [SerializeField] public Renderer rend;
     private int i = 3;
 
     void Update()
